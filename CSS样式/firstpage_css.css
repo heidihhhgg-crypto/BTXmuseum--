@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;}
+.content{
+	width:100%;
+	height:320px;
+	margin-left:150px;
+	margin-top:100px;}
+.item{
+	float:left;
+	width:230px;
+	height:300px;
+	text-align:center;
+	margin-right:10px;
+	margin-top:2px;
+	background-color:#fff;
+	position:relative;
+	top:0px;
+	overflow:hidden;
+	transition: all .5s;}
+.item .info{
+	position:absolute;
+	bottom:-100px;
+	width:100%;
+	height:70px;
+	background-color:#000;
+	transition:all.5s;}
+.item .product .name{
+	font-size:14px;
+	line-height:3em;}
+.item .info .detail{
+	margin-top:10px;
+	color:#fff;
+	font-size:12px;}
+.item:hover{
+	top:-3px;
+	box-shadow:0 0 15px #999;
+	cursor:pointer;}
+.item:hover .info{
+	bottom:0px;}
+.footer{ 
+    float:left;}
+.EN{ 
+    font-size:16px; 
+	line-height:18px; 
+	text-align:right; 
+	display:block;}
+.EN a{
+	text-decoration:none;
+	font-size:18px;
+	color: #000;}
+ul.cgxx{ 
+    margin-top:30px;}
+ul.cgxx li{ 
+    float:left; 
+	display:inline-block; 
+	margin-left:56px;}
+ul.cgxx li a{ 
+    font-size:18px; 
+	list-style:18px; 
+	color:#999;
+	text-decoration:none;}
+ul.cgxx li a:hovor{ 
+    text-decoration:underline; 
+	color:#333;}

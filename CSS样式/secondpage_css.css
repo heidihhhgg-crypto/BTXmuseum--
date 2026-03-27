@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+.table_border{
+	border-bottom:1px solid #663300;}
+.title{
+	font-family:"方正姚体";
+	font-size:56px;
+	font-weight:bold;
+	color:#663300;}
+.country{
+	font-family: "方正姚体";
+	font-size:28px;
+	color:#663300;
+	line-height:1.5em;
+	border-bottom-width:3px;
+	border-bottom-style:double;
+	border-bottom-color:#663300;}
+table td.content p{
+	font-family: "楷体";
+	font-size:18px;
+	font-style:normal;
+	font-weight:lighter;
+	color: #FFF;
+	letter-spacing:0.2em;
+	background-color:#663300;}
+table td a{
+	text-decoration:none;
+	color:#663300;}
