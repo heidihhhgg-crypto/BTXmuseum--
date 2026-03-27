@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>文物登记</title>
+
+<link href="../CSS样式/fourthpage_css.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1 align="center">文物登记</h1>
+<div class="wrap">
+<div class="header"><h3>请如实填写</h3></div>
+<form name="register" class="register" method="post" action="firstpage.html" autocomplete="on">
+<div class="title"><h5>该表格无任何商业用途</h5></div>
+<div class="content">
+<table width="579" height="345" border="0" cellpadding="0" cellspacing="1">
+    
+  <tr>
+<td width="90" align="center" class="cols1">登记人姓名<span class="sign">*</span></td>
+<td width="479" align="center" class="cols2"><input type="text" class="input1" required></td>
+<td width="90" align="center" class="cols1">文物照片<span class="sign">*</span></td>
+<td width="479" align="center" class="cols2"><input type="file" class="input1"></td>
+</tr>
+
+<tr>
+<td align="center" class="cols1">文物年代</td>
+<td align="center" class="cols2">
+<input type="radio" name="gen" id="modern" checked>&nbsp;&nbsp;现代&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="gen" id="old" checked>&nbsp;&nbsp;古代
+</td>
+<td align="center" class="cols1">类别<span class="sign">*</span></td>
+<td align="center" class="cols2"><input type="text" class="input1" required placeholder="画作 书法 物件等"></td>
+</tr>
+
+<tr>
+<td align="center" class="cols1">文物发现日期</td>
+<td align="center" class="cols2"><input type="date" class="input1"></td>
+<td align="center" class="cols1">持有人持有时间(年)</td>
+<td align="center" class="cols2"><input type="number" class="input1" min="1" max="100"></td>
+</tr>
+
+<tr>
+<td align="center" class="cols1">完整程度</td>
+<td align="center" class="cols2"><input type="range" class="input1" min="1" max="100"></td>
+<td align="center" class="cols1">持有人联系方式<span class="sign">*</span></td>
+<td align="center" class="cols2"><input type="tel" class="input1"></td>
+</tr>
+
+<tr>
+<td align="center" class="cols1">搜索同名</td>
+<td colspan="3" align="center" class="cols2"><input type="search" class="input2"></td>
+</tr>
+
+</table>
+</div>
+
+<div class="bottom"><input type="submit" value="完成"><input type="button" value="不保存并返回主页"></div>
+</form>
+</div>
+</body>
+</html>
